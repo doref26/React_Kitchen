@@ -13,7 +13,7 @@ export default class MyKitchen extends Component {
         return (
             <div>
                 Ready to eat!
-                Recipe made: {this.recMade}
+                Recipes made: {this.recMade}
                 <FCRecipe />
             </div>
         )

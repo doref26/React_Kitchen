@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import FCRecipe from './FunctionalComps/FCP';
+import MyKitchen from './ClassComps/CCKitchen';
 
 function App() {
   return (
@@ -7,16 +9,16 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Recipes<br />
+          Recipes made:
+
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        
+        <p>
+          <MyKitchen />
+        </p>
+
       </header>
     </div>
   );
